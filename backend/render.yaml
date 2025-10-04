@@ -5,7 +5,7 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    rootDir: .
+    rootDir: .  # Backend is now the root directory
     envVars:
       - key: NODE_ENV
         value: production
